@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="152dp"
+            android:layout_height="228dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/boy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="应用名    ：快乐糖果    \n完成时间：2013.5"
+            android:textColor="#956036" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#956036" 
+        android:text=" 详情：\n         这个是参加培训的时候跟随老师完成的一个项目，游戏的玩法就是触摸屏幕让小人去左右移动，去吃天上掉下来的糖果，糖果分为好的和坏的，有的糖果吃了能加血，加分，加等级，有的糖果吃了会扣学，扣分，降等级。游戏虽然很小，但是考虑到的东西很多，游戏是在线程控制方法，和一些数据的处理方面。"/>
+    
+    <Button 
+        android:id="@+id/yingyong"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:gravity="center"
+        android:text="打开应用"
+        />
+
+</LinearLayout>

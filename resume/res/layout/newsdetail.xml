@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginTop="5sp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/news_detail_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="hggjgb"
+                android:textColor="#8b0000"
+                android:textSize="25sp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="1sp"
+                android:background="#d2b48c"
+                android:textSize="1sp" />
+
+            <TextView
+                android:id="@+id/news_detail_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="asdasd"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

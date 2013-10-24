@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="152dp"
+            android:layout_height="228dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/jishi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="应用名    ：微记事    \n完成时间：2013.3"
+            android:textColor="#956036" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#956036" 
+        android:text=" 详情：\n         这个是接触安卓接近半年时间后，开发的一个小应用，主要采用的技术就是数据库。在新建一个用户的时候，用户放到一张“死表”（User）里面，同时自动创建一张活表，即该用户对应的表。支持简单的修改，查询，增加等操作。"/>
+    
+    <Button 
+        android:id="@+id/yingyong"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:gravity="center"
+        android:text="打开应用"
+        />
+
+</LinearLayout>

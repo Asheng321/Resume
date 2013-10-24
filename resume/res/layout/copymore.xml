@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/bottommenu"
+        layout="@layout/bottommenu" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/corner_rect"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/more_aboutus"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="     关于我们" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:text="详情  >" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1sp"
+            android:background="#ccc" />
+
+        <LinearLayout
+            android:id="@+id/more_contactus"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="     联系我们" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:text="详情  >" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1sp"
+            android:background="#ccc" />
+
+        <LinearLayout
+            android:id="@+id/more_joinus"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="     加入我们" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:text="详情  >" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1sp"
+            android:background="#ccc" />
+
+        <LinearLayout
+            android:id="@+id/more_cooperate"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="     商务合作" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:text="详情  >" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1sp"
+            android:background="#ccc" />
+
+        <LinearLayout
+            android:id="@+id/more_member"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="     会员服务" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:text="详情  >" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1sp"
+            android:background="#ccc" />
+
+        <LinearLayout
+            android:id="@+id/more_attention"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="关注  便宜到家  微信公共账号" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:height="30sp"
+        android:layout_above="@id/bottommenu"
+        />
+
+</RelativeLayout>

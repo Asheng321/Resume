@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d4d4d4"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/bottommenu"
+        layout="@layout/bottommenu" />
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_above="@+id/bottommenu"
+        android:layout_margin="5dp"
+        android:background="@drawable/corner_rect"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+        <ListView 
+            android:background="#d4d4d4"
+        android:cacheColorHint="#d4d4d4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list"
+            android:divider="@drawable/comment_divider_line"
+            android:dividerHeight="5dp"
+            ></ListView>
+        
+
+    </LinearLayout>
+
+    <TextView
+        android:background="#8b4513"
+        android:id="@+id/text_fabiao"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/title"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:gravity="center"
+        android:text="发表"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

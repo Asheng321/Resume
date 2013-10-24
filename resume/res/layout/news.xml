@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#d4d4d4" >
+
+    <include
+        android:id="@+id/bottommenu"
+        layout="@layout/bottommenu" />
+     <include 
+        android:id="@+id/title"
+        layout="@layout/title"
+        />
+     
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/title"
+         android:layout_margin="5dp"
+         android:background="@drawable/corner_rect"
+         android:gravity="center"
+         android:orientation="vertical" >
+         
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="40dp"
+             >
+             
+             <!-- <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="fill_parent"
+                 android:text="夜间模式"
+                 /> -->
+             
+             <Button 
+                 android:background="@drawable/ios_button_grouped"
+                 android:layout_width="wrap_content" 
+                 android:layout_height="wrap_content"
+                 />
+             
+             
+             
+         </LinearLayout>
+
+        <!--  <TextView
+             android:id="@+id/licheng1"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:layout_marginBottom="5dp"
+             android:layout_marginTop="5dp"
+             android:layout_weight="1"
+             android:gravity="center_vertical"
+             android:text="我的第一个安卓绘图程序   >"
+             android:textColor="#000000"
+             android:textSize="20sp"
+             android:typeface="monospace" /> -->
+
+         <View
+             android:layout_width="fill_parent"
+             android:layout_height="1px"
+             android:background="#bbb" />
+
+         <TextView
+             android:id="@+id/licheng2"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:layout_marginBottom="5dp"
+             android:layout_marginTop="5dp"
+             android:layout_weight="1"
+             android:gravity="center_vertical"
+             android:text="我的第一个数据库应用          >"
+             android:textColor="#000000"
+             android:textSize="20sp" />
+
+         <View
+             android:layout_width="fill_parent"
+             android:layout_height="1px"
+             android:background="#bbb" />
+
+         <TextView
+             android:id="@+id/licheng3"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:layout_marginBottom="5dp"
+             android:layout_marginTop="5dp"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:text="我的第一个网络应用             >"
+             android:textColor="#000000"
+             android:textSize="20sp" />
+
+         <View
+             android:layout_width="fill_parent"
+             android:layout_height="1px"
+             android:background="#bbb" />
+
+         <TextView
+             android:id="@+id/licheng4"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:layout_marginBottom="5dp"
+             android:layout_marginTop="5dp"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:text="我的第一个游戏应用              >"
+             android:textColor="#000000"
+             android:textSize="20sp" />
+     </LinearLayout>
+    
+   
+
+</RelativeLayout>

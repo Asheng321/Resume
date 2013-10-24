@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="152dp"
+            android:layout_height="228dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/weather" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="应用名    ：天气预报    \n完成时间：2013.7"
+            android:textColor="#956036" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#956036" 
+        android:text=" 详情：\n         这个是在刚解除XML解析不久的时候做的一个应用，用的是WebService提供的服务，WebService提供了包括天气预报，手机归属地等信息的查询。最初的版本是 用PullParser加Http Post完成的，后来的版本使用的是第三方的开发包KSoap2."/>
+    
+    <Button 
+        android:id="@+id/yingyong"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:gravity="center"
+        android:text="打开应用"
+        />
+
+</LinearLayout>

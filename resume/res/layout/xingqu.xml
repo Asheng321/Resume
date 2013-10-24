@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d3d5d4"
+    android:orientation="horizontal" >
+    
+    <ScrollView 
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            
+            
+            <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+	<ImageView 
+	    android:id="@+id/img_qixing"
+	     android:layout_marginTop="10dp"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    />
+        
+	<ImageView 
+	    android:id="@+id/img_diaoyu"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    />
+        
+	<ImageView 
+	    android:id="@+id/img_baitan"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	    />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+	     android:layout_marginTop="10dp"
+	     android:layout_marginLeft="8dp"
+        >
+	<ImageView 
+	    android:id="@+id/img_dinglan"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:src="@drawable/dinglan1"
+	    />
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:background="#e7e7e7"
+	    >
+	<TextView
+	    android:id="@+id/text_title"
+	    android:layout_marginTop="5dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="15sp"
+	    android:text="最美的不是终点，而是沿途的风光" 
+	    />
+	
+	<View 
+	    android:layout_marginTop="2dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+		android:background="#d3d5d4"
+	    />
+	
+	<ImageView
+	    android:id="@+id/image"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/qixing" />
+	
+	<View 
+	    android:layout_marginTop="2dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+		android:background="#d3d5d4"
+	    />
+	
+	<TextView
+	    android:id="@+id/text_content"
+	    android:layout_marginTop="2dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="15sp"
+	    android:text="       2013年寒假，从学校到家，全长480里路，跟一个萍水相逢的哥们，一起骑车回家。当时的温度，早间的时候是零下的，随身带的水，一个小时便结了一层冰，花了两天骑到家后，那几天走路都是张的腿的。但是年青人，总得有股说干就去干的勇气，这是我一生的美好回忆。
+	   \n   骑行是一种浪漫的运动 。驶过颠簸的路途 ，超越黑暗的隧道 ，在不断而来困难当中体验挑战，在遥远的他乡体验风情，在旅途的终点体验成功。" 
+	    />
+	    
+	</LinearLayout>
+	
+        
+    </LinearLayout>
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+    
+    
+	
+    
+
+</LinearLayout>

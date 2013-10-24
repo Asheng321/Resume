@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     >
+    
+    <LinearLayout 
+         android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+        >
+        
+        
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="5dp"
+            >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textColor="#cd5c5c"
+        android:text="专业课成绩"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/corner_rect"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="C语言程序设计1                  "
+                android:textColor="#800000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="3"
+                android:text="71"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            
+             </LinearLayout>
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+             
+       
+             <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="C语言程序设计2                  "
+                android:textColor="#800000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="3"
+                android:text="80"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        
+                 </LinearLayout>
+        
+        
+        
+            
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+             
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+             
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="面向对象编程技术               "
+                android:textColor="#800000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="3"
+                android:text="81"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            
+             </LinearLayout>
+            
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+             
+             
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="数据结构                              "
+                android:textColor="#800000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="3"
+                android:text="93"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            
+              </LinearLayout>
+            
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text=".NET平台和C#开发              "
+                android:textColor="#800000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="3"
+                android:text="92"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            
+              </LinearLayout>
+            
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="JAVA程序设计                      "
+                android:textColor="#800000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="3"
+                android:text="89"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            
+              </LinearLayout>
+            
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="数据库概论A                       "
+                android:textColor="#800000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="3"
+                android:text="87"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            
+              </LinearLayout>
+            
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="linux操作系统与程序设计  "
+                android:textColor="#800000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="3"
+                android:text="86"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            
+              </LinearLayout>
+            
+        
+        
+        
+    </LinearLayout>
+    
+    	<TextView
+    	    android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="班级职务"
+        android:textColor="#cd5c5c"
+        android:textSize="15sp" />
+    	
+    	 <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/corner_rect"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="大一担任班级文艺委员"
+                android:textColor="#800000"
+                android:textSize="20sp" />
+             </LinearLayout>
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="大二担任班级宣传委员"
+                android:textColor="#800000"
+                android:textSize="20sp" />
+             </LinearLayout>
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="大三上担任班级副班长  大三下担任班级班长"
+                android:textColor="#800000"
+                android:textSize="20sp" />
+             </LinearLayout>
+             <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#ccc" />
+             
+             <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="至今仍担任班长一职"
+                android:textColor="#800000"
+                android:textSize="20sp" />
+             </LinearLayout>
+    	
+    	</LinearLayout>
+    	
+    	</LinearLayout>
+</ScrollView>
+    </LinearLayout>
+</LinearLayout>
